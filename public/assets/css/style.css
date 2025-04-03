@@ -1080,7 +1080,7 @@ select {
   background-color: rgba(27, 26, 26, 0.15);
 }
 .bg-overlay-2:before {
-  background-color: rgba(27, 26, 26, 0.12);
+  background-color: rgba(27, 26, 26, 0.25);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1128,7 +1128,7 @@ h4,
 h5,
 h6 {
   color: #282828;
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   font-weight: 500;
   line-height: 1.4;
@@ -3136,7 +3136,7 @@ textarea.form-control {
 .cart-minipopup .cart-item .cart__title {
   display: block;
   color: #282828;
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 4px;
@@ -3173,7 +3173,7 @@ textarea.form-control {
 
 .cart-minipopup .cart-total {
   color: #282828;
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   line-height: 1;
   font-weight: 500;
@@ -3344,7 +3344,7 @@ textarea.form-control {
 }
 
 .search-popup .search-popup__input {
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 35px;
   z-index: 1;
@@ -3739,7 +3739,7 @@ textarea.form-control {
   }
   .navbar .dropdown-menu.wide-dropdown-menu .dropdown-menu-title {
     color: #282828;
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 17px;
     line-height: 1;
@@ -3915,7 +3915,7 @@ textarea.form-control {
 }
 
 .accordion-item .accordion-item__title {
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
@@ -5710,7 +5710,7 @@ textarea.form-control {
 
 .portfolio__meta-list li .meta__desc {
   color: #F3C623;
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 500;
 }
@@ -7105,7 +7105,7 @@ textarea.form-control {
 
 .contact__number a {
   color: #282828;
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 22px;
   line-height: 1;
 }
@@ -7313,7 +7313,7 @@ textarea.form-control {
 }
 
 .pricing-item .pricing__price {
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 50px;
   color: #1b1a1a;
   line-height: 1;
@@ -7385,7 +7385,7 @@ textarea.form-control {
 
 .counter-item .counter {
   color: #F3C623;
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 60px;
   font-weight: 400;
   line-height: 1;
@@ -7517,7 +7517,7 @@ textarea.form-control {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 700;
   text-transform: capitalize;
@@ -7604,7 +7604,7 @@ textarea.form-control {
   padding: 22px 30px;
   text-transform: capitalize;
   border-radius: 50px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #1b1a1a;
   background-color: #ffffff;
   -webkit-transition: all 0.4s ease;
@@ -8884,7 +8884,7 @@ textarea.form-control {
 }
 
 .product__meta-details li span:first-of-type {
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #282828;
   font-weight: 700;
   font-size: 16px;

@@ -1,373 +1,287 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import LanguageChanger from "./LanguageChanger";
+import { useTranslation } from "react-i18next";
 
 function Header() {
+  const [collapse, setCollapse] = useState(false);
+  const { t } = useTranslation();
+
   return (
     <header className="header header-layout1">
-      {/* <div className="header-topbar">
-                <div className="container-fluid">
-                    <div className="row align-items-center">
-                        <div className="col-12">
-                            <div className="d-flex align-items-center justify-content-between">
-                                <ul
-                                    className="contact__list d-flex flex-wrap align-items-center list-unstyled mb-0"
-                                >
-                                    <li>
-                                        <i className="icon-mail"></i>
-                                        <a href="mailto:Solatec@7oroof.com"
-                                        >Email: Solatec@7oroof.com</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <i className="icon-clock"></i>
-                                        <a href="contact-us.html">Mon - Fri: 8:00 am - 7:00 pm</a>
-                                    </li>
-                                    <li>
-                                        <i className="icon-location color-primary"></i>
-                                        <a href="#" className="color-primary">Get Directions</a>
-                                    </li>
-                                </ul>
-
-                                <div className="d-flex align-items-center">
-                                    <form className="header-topbar__search mr-20">
-                                        <input
-                                            type="text"
-                                            className="form-control"
-                                            placeholder="Type Your Search Words..."
-                                        />
-                                        <button className="header-topbar__search-btn">
-                                            <i className="fa fa-search"></i>
-                                        </button>
-                                    </form>
-                                    <ul className="social-icons list-unstyled mb-0 mr-20">
-                                        <li>
-                                            <a href="#"><i className="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                        </li>
-                                    </ul>
-                                    <div className="dropdown lang-dropdown">
-                                        <button
-                                            className="dropdown-toggle lang-dropdown-toggle"
-                                            id="langDropdown"
-                                            data-toggle="dropdown"
-                                        >
-                                            <img src="assets/images/flags/en.png" alt="en" />
-                                            <span>English</span>
-                                        </button>
-                                        <div className="dropdown-menu" aria-labelledby="langDropdown">
-                                            <a className="dropdown-item" href="#">
-                                                <img src="assets/images/flags/fr.png" alt="en" />
-                                                <span>France</span>
-                                            </a>
-                                            <a className="dropdown-item" href="#">
-                                                <img src="assets/images/flags/gr.png" alt="en" />
-                                                <span>Germany</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div> */}
-      {/* header- */}
       <nav className="navbar navbar-expand-lg sticky-navbar">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="index.html">
+        <div className="container-fluid w-full flex justify-between items-center ">
+          <Link className="navbar-brand" to="/">
             <img
-              src="assets/images/logo/logo.png"
-              className="logo"
+              src="/assets/images/logo/logo.png"
+              className="logo border-none"
               alt="logo"
+              width={80}
             />
-          </a>
-          <button className="navbar-toggler" type="button">
+          </Link>
+          <button
+            className="navbar-toggler"
+            type="button"
+            onClick={() => setCollapse(true)}
+          >
             <span className="menu-lines">
               <span></span>
             </span>
           </button>
-          <div className=" navbar-collapse" id="mainNavigation">
-            <ul className="navbar-nav">
-              <li className="nav__item ">
+          {/* menu-opened */}
+          <div
+            className={`${
+              collapse ? "menu-opened" : ""
+            } navbar-collapse   flex-grow-0  "
+            id="mainNavigation`}
+          >
+            <ul className="navbar-nav items-center">
+              <li className="nav__item">
                 <NavLink to="/" className="nav__item-link">
-                  Bosh sahifa
+                  {t("home")}
                 </NavLink>
-
-                {/* dropdown- */}
               </li>
-              {/* nav- */}
+
               <li className="nav__item has-dropdown">
-                <NavLink to="about" className="nav__item-link ">
-                  Jamiyat
+                <NavLink to="/sahifa/jamiyat" className="nav__item-link">
+                  {t("society")}
                 </NavLink>
-                <button
-                  className="dropdown-toggle"
-                  data-toggle="dropdown"
-                ></button>
+                <button className="dropdown-toggle" data-toggle="dropdown" />
                 <ul className="dropdown-menu">
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/jamiyat-haqida"
                       className="nav__item-link"
                     >
-                      Jamiyat haqida
+                      {t("about_society")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/work-plan"
+                      to="/sahifa/ish-grafigi"
                       className="nav__item-link"
                     >
-                      Ish grafigi
+                      {t("work_schedule")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association-pasport"
+                      to="/sahifa/guvohnoma-va-sertifikatlar"
                       className="nav__item-link"
                     >
-                      Guvohnoma va sertifikatlar
+                      {t("certificates")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association-pasport"
+                      to="/sahifa/bank-rekvizitlari"
                       className="nav__item-link"
                     >
-                      Bank rekvizitlari
+                      {t("bank_details")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association-pasport"
+                      to="/sahifa/zarbdor-elevatori-aj-predmeti-va-maqsadi"
                       className="nav__item-link"
                     >
-                      "ZARBDOR ELEVATORI" AJ predmeti va maqsadi
+                      {t("company_goal")}
                     </NavLink>
                   </li>
                 </ul>
               </li>
+
               <li className="nav__item has-dropdown">
-                <NavLink to="about" className="nav__item-link ">
-                  Tashkiliy tuzilma
+                <NavLink
+                  to="/sahifa/tashkiliy-tuzilma"
+                  className="nav__item-link"
+                >
+                  {t("structure")}
                 </NavLink>
-                <button
-                  className="dropdown-toggle"
-                  data-toggle="dropdown"
-                ></button>
+                <button className="dropdown-toggle" data-toggle="dropdown" />
                 <ul className="dropdown-menu">
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/kuzatuv-kengashi"
                       className="nav__item-link"
                     >
-                      Kuzatuv kengashi
+                      {t("supervisory_board")}
+                    </NavLink>
+                  </li>
+                  <li className="nav__item">
+                    <NavLink to="/sahifa/boshqaruv" className="nav__item-link">
+                      {t("management")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/taftish-komissiyasi"
                       className="nav__item-link"
                     >
-                      Boshqaruv
+                      {t("audit_commission")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/shoba-va-tobe-xojalik-jamiyatlari"
                       className="nav__item-link"
                     >
-                      Taftish komissiyasi
-                    </NavLink>
-                  </li>
-                  <li className="nav__item">
-                    <NavLink
-                      to="/about-us/association"
-                      className="nav__item-link"
-                    >
-                      Sho'ba va tobe xo'jalik jamiyatlari
+                      {t("subsidiary_companies")}
                     </NavLink>
                   </li>
                 </ul>
               </li>
+
               <li className="nav__item has-dropdown">
-                <NavLink to="about" className="nav__item-link ">
-                  Aksiyador va investorlarga
+                <NavLink
+                  to="/sahifa/aksiyador-va-investorlarga"
+                  className="nav__item-link"
+                >
+                  {t("investors")}
                 </NavLink>
-                <button
-                  className="dropdown-toggle"
-                  data-toggle="dropdown"
-                ></button>
+                <button className="dropdown-toggle" data-toggle="dropdown" />
                 <ul className="dropdown-menu">
                   <li className="nav__item">
-                    <NavLink
-                      to="/about-us/association"
-                      className="nav__item-link"
-                    >
-                      Guvohnoma
+                    <NavLink to="/sahifa/guvohnoma" className="nav__item-link">
+                      {t("guvohnoma")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/korporativ-hujjatlar"
                       className="nav__item-link"
                     >
-                      Korporativ hujjatlar
+                      {t("corporate_docs")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/kapital-tuzilmasi"
                       className="nav__item-link"
                     >
-                      Kapital tuzilmasi
+                      {t("capital_structure")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/affillangan-shaxslar"
                       className="nav__item-link"
                     >
-                      Affillangan shaxslar
+                      {t("affiliated_persons")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/aksiyadorlarning-umumiy-yigilish-natijalari"
                       className="nav__item-link"
                     >
-                      Aksiyadorlarning umumiy yig'ilish natijalari
+                      {t("shareholders_meeting")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/rivojlanish-strategiyasi"
                       className="nav__item-link"
                     >
-                      Rivojlanish strategiyasi
-                    </NavLink>
-                  </li>
-
-                  <li className="nav__item">
-                    <NavLink
-                      to="/about-us/association"
-                      className="nav__item-link"
-                    >
-                      Biznes rejalar
-                    </NavLink>
-                  </li>
-
-                  <li className="nav__item">
-                    <NavLink
-                      to="/about-us/association"
-                      className="nav__item-link"
-                    >
-                      Muhim faktlar
-                    </NavLink>
-                  </li>
-
-                  <li className="nav__item">
-                    <NavLink
-                      to="/about-us/association"
-                      className="nav__item-link"
-                    >
-                      Hisobotlar
+                      {t("strategy")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/biznes-rejalar"
                       className="nav__item-link"
                     >
-                      Asosiy ko'rsatkichlar
+                      {t("business_plans")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/muhim-faktlar"
                       className="nav__item-link"
                     >
-                      Auditorlik xulosalari
+                      {t("key_facts")}
+                    </NavLink>
+                  </li>
+                  <li className="nav__item">
+                    <NavLink to="/sahifa/hisobotlar" className="nav__item-link">
+                      {t("reports")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/asosiy-korsatkichlar"
                       className="nav__item-link"
                     >
-                      Divedentlar
+                      {t("main_indicators")}
+                    </NavLink>
+                  </li>
+                  <li className="nav__item">
+                    <NavLink
+                      to="/sahifa/auditorlik-xulosalari"
+                      className="nav__item-link"
+                    >
+                      {t("audit_conclusions")}
+                    </NavLink>
+                  </li>
+                  <li className="nav__item">
+                    <NavLink
+                      to="/sahifa/divedentlar"
+                      className="nav__item-link"
+                    >
+                      {t("dividends")}
                     </NavLink>
                   </li>
                 </ul>
               </li>
+
               <li className="nav__item has-dropdown">
-                <NavLink to="about" className="nav__item-link ">
-                  Matbuot markazi
+                <NavLink
+                  to="/sahifa/matbuot-markazi"
+                  className="nav__item-link"
+                >
+                  {t("media_center")}
                 </NavLink>
-                <button
-                  className="dropdown-toggle"
-                  data-toggle="dropdown"
-                ></button>
+                <button className="dropdown-toggle" data-toggle="dropdown" />
                 <ul className="dropdown-menu">
                   <li className="nav__item">
-                    <NavLink
-                      to="/about-us/association"
-                      className="nav__item-link"
-                    >
-                      Yangiliklar
+                    <NavLink to="/news" className="nav__item-link">
+                      {t("news.heading")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sayt-xaritasi"
                       className="nav__item-link"
                     >
-                      Sayt xaritasi
+                      {t("site_map")}
+                    </NavLink>
+                  </li>
+                  <li className="nav__item">
+                    <NavLink to="/sahifa/pochta" className="nav__item-link">
+                      {t("mail")}
                     </NavLink>
                   </li>
                   <li className="nav__item">
                     <NavLink
-                      to="/about-us/association"
+                      to="/sahifa/bosh-ish-orinlari"
                       className="nav__item-link"
                     >
-                      Pochta
-                    </NavLink>
-                  </li>
-                  <li className="nav__item">
-                    <NavLink
-                      to="/about-us/association"
-                      className="nav__item-link"
-                    >
-                      Bo'sh ish o'rinlari
+                      {t("vacancies")}
                     </NavLink>
                   </li>
                 </ul>
               </li>
+              <LanguageChanger />
             </ul>
+
             {/* navbar- */}
-            <button className="close-mobile-menu d-block d-lg-none">
+            <button
+              className="close-mobile-menu d-block d-lg-none"
+              onClick={() => setCollapse(false)}
+            >
               <i className="fas fa-times"></i>
             </button>
           </div>
-          {/* navbar- */}
-          <div className="contact__number d-none d-xl-flex align-items-center">
-            <i className="icon-phone"></i>
-            <a href="tel:5565454117">55 654 541 17</a>
-          </div>
-          <div className="m-4">
-            <a href="request-quote.html" className="btn btn__primary">
-              <span>Request A Quote</span>
-              <i className="icon-arrow-right"></i>
-            </a>
-          </div>
-          {/* navbar- */}
         </div>
       </nav>
     </header>

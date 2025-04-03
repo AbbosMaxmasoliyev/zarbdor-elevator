@@ -1,0 +1,283 @@
+{
+  "category": {
+    "welcome": "Xush kelisnsiz"
+  },
+  "recents-post": "Oxirgi postlar",
+  "more": "Batafsil",
+  "readMore": "Batafsil o‘qish",
+  "share-others": "Boshqalar ulashish",
+  "home": "Bosh sahifa",
+  "society": "Jamiyat",
+  "about_society": "Jamiyat haqida",
+  "work_schedule": "Ish grafigi",
+  "certificates": "Guvohnoma va sertifikatlar",
+  "bank_details": "Bank rekvizitlari",
+  "company_goal": "\"ZARBDOR ELEVATORI\" AJ predmeti va maqsadi",
+  "structure": "Tashkiliy tuzilma",
+  "supervisory_board": "Kuzatuv kengashi",
+  "management": "Boshqaruv",
+  "audit_commission": "Taftish komissiyasi",
+  "subsidiary_companies": "Sho'ba va tobe xo'jalik jamiyatlari",
+  "investors": "Aksiyador va investorlarga",
+  "guvohnoma": "Guvohnoma",
+  "corporate_docs": "Korporativ hujjatlar",
+  "capital_structure": "Kapital tuzilmasi",
+  "affiliated_persons": "Affillangan shaxslar",
+  "shareholders_meeting": "Aksiyadorlarning umumiy yig'ilish natijalari",
+  "strategy": "Rivojlanish strategiyasi",
+  "business_plans": "Biznes rejalar",
+  "key_facts": "Muhim faktlar",
+  "reports": "Hisobotlar",
+  "main_indicators": "Asosiy ko'rsatkichlar",
+  "audit_conclusions": "Auditorlik xulosalari",
+  "dividends": "Divedentlar",
+  "media_center": "Matbuot markazi",
+  "site_map": "Sayt xaritasi",
+  "mail": "Pochta",
+  "vacancies": "Bo'sh ish o'rinlari",
+  "not_found": {
+    "message": "Sahifa topilmadi. Balki manzil noto‘g‘ri yozilgandir?",
+    "back_home": "Bosh sahifaga qaytish"
+  },
+  "news": {
+    "heading": "Yangiliklar",
+    "breadcrumbs": {
+      "home": "Bosh sahifa",
+      "press": "Matbuot markazi",
+      "current": "Yangiliklar"
+    }
+  },
+  "contact": {
+    "location": "Bizning manzil",
+    "quick_contact": "Tez aloqa",
+    "email": "Email",
+    "support": "Yordam",
+    "hours": "Ish vaqti",
+    "days": "Dushanbadan - Jumagacha",
+    "time": "Soat 08:00 dan 19:00 gacha",
+    "request_quote": "Narx so‘rash",
+    "get_in_touch": "Biz bilan bog‘laning",
+    "description": "Mahsulotlarimiz ustidan to‘liq nazorat qilish orqali mijozlarimizga eng sifatli narx va xizmatni taqdim etamiz.",
+    "name": "Ismingiz",
+    "phone": "Telefon",
+    "select_service": "Xizmatni tanlang",
+    "service1": "Xizmat 1",
+    "service2": "Xizmat 2",
+    "details": "Qo‘shimcha ma’lumotlar!",
+    "submit": "So‘rov yuborish"
+  },
+  "footer": {
+    "quick_contact": "Tez aloqa",
+    "contact_text": "Agar sizda savollar bo‘lsa yoki yordam kerak bo‘lsa, jamoamiz bilan bog‘laning.",
+    "address": "2307 Beverley ko‘chasi, Bruklin, Nyu-York 11226, AQSh.",
+    "get_directions": "Yo‘nalishni ko‘rsatish",
+    "society": "Jamiyat",
+    "about": "Jamiyat haqida",
+    "work_schedule": "Ish grafigi",
+    "certificates": "Guvohnoma va sertifikatlar",
+    "bank_details": "Bank rekvizitlari",
+    "company_goal": "\"ZARBDOR ELEVATORI\" AJ predmeti va maqsadi",
+    "structure": "Tashkiliy tuzilma",
+    "supervisory_board": "Kuzatuv kengashi",
+    "management": "Boshqaruv",
+    "audit_commission": "Taftish komissiyasi",
+    "subsidiaries": "Sho'ba va tobe xo'jalik jamiyatlari",
+    "investors": "Investorlarga",
+    "certificate": "Guvohnoma",
+    "corporate_docs": "Korporativ hujjatlar",
+    "capital_structure": "Kapital tuzilmasi",
+    "affiliated_persons": "Affillangan shaxslar",
+    "reports": "Hisobotlar",
+    "follow_us": "Bizni kuzatib boring",
+    "terms": "Foydalanish shartlari",
+    "privacy": "Maxfiylik siyosati",
+    "sitemap": "Sayt xaritasi",
+    "copyright": "© 2025 Zarbdor Elevator. Barcha huquqlar himoyalangan."
+  },
+  "fancyboxLayout1": {
+    "ctaBanner": {
+      "title": "Tajriba",
+      "desc": "20 yillik tajriba va ilmiy-texnik yondashuv tufayli biz don mahsulotlari bozorida barqaror o‘sish va yuqori sifatli mahsulotlarni ta’minlab kelmoqdamiz."
+    },
+    "fancyBoxItems": [
+      {
+        "title": "Kuchli Strategiya:",
+        "desc": "Bizning zavodlar yuqori xavfsizlik va sifat standartlariga javob beradi, xalqaro sertifikatlarga ega."
+      },
+      {
+        "title": "Mukofotlarga sazovor bo‘lgan tajriba:",
+        "desc": "Global yetkazib berish tarmoqlarida paydo bo‘ladigan kutilmagan xatar va qiyinchiliklarni yengib o‘tish bo‘yicha tajribamiz bor."
+      },
+      {
+        "title": "Aniq Tekshiruv:",
+        "desc": "So‘nggi texnologiyalar yordamida sinov va sifatlilikni ta’minlaymiz, o‘n yillik tajribaga egamiz."
+      }
+    ]
+  },
+  "bannerLayout5": {
+    "heading": "Biz Tayyormiz – Don Mahsulotlariga Bo‘lgan Talabni Qondirishga",
+    "contentText": "Global oziq-ovqat xavfsizligi va sifatli mahsulotlarga bo‘lgan ehtiyoj tobora ortib bormoqda. Biz mazkur talablarga javob berish, ekologik toza hamda barqaror yechimlarni taqdim etish uchun barcha imkoniyatlarga egamiz. Don mahsulotlarini samarali qayta ishlash – rivojlanishning muhim negizi!",
+    "note": "Bizning Tanishtiruvni Tomosha Qiling",
+    "videoBlock": {
+      "videoTitle": "Videoni Ko‘ring",
+      "bannerImage": "assets/images/banners/13.png"
+    }
+  },
+  "featuresLayout5": {
+    "headingSubtitle": "Biz Nimani Taklif Qilamiz",
+    "headingTitle": "Ishlab Chiqaruvchilar va Tadbirkorlarga Mo‘ljallangan Don Mahsulotlari Yetkazib Berish!",
+    "headingDesc": "Bizning zavodimiz eng so‘nggi texnologiyalar asosida ishlab, samarali va barqaror ishlab chiqarishni yo‘lga qo‘ygan. Mahsulotlarimizni butun dunyoga yetkazish uchun kuchli logistika tizimimiz ham mavjud",
+    "buttonMore": "Batafsil",
+    "featureItems": [
+      {
+        "title": "Don Tozalash Xizmati",
+        "desc": "Zavodimizda donni tozalash, saralash va tayyorlashning zamonaviy texnologik jarayonlari joriy etilgan. Mahsulot sifati – bizning ustuvor vazifamiz.",
+        "more": "Batafsil"
+      },
+      {
+        "title": "Milling (Un Tortish) Xizmati",
+        "desc": "Innovatsion uskunalar yordamida yuqori sifatli un va yorma ishlab chiqaramiz. Maqsadimiz – doimiy sifat va mijozlar ehtiyojiga mos mahsulot.",
+        "more": "Batafsil"
+      },
+      {
+        "title": "Qadoqlash va Saqlash",
+        "desc": "Sifatli mahsulotni saqlash uchun gigiyenik va xavfsiz omborlarimiz mavjud. Qadoqlash jarayonida yuqori standartlarga rioya qilinadi.",
+        "more": "Batafsil"
+      },
+      {
+        "title": "Logistika va Yetkazib Berish",
+        "desc": "Biz global darajada tez va ishonchli yetkazib berish xizmati ko‘rsatamiz. Tashish, bojxona rasmiylashtiruvi va boshqa jarayonlarni to‘liq qo‘llab-quvvatlaymiz.",
+        "more": "Batafsil"
+      }
+    ]
+  },
+  "bannerLayout4": {
+    "headingTitle": "Yangi Energiya: Barqaror va Ishonchli Ovqatlanish Tizimlari",
+    "headingDesc": "So‘nggi yillarda don mahsulotlariga talab jadal o‘smoqda. Biz kengayish va yangi bozorlar bilan hamkorlik qilish uchun yetarli moliyaviy va texnik salohiyatga egamiz. Mahsulotlarimiz ham mahalliy, ham xalqaro bozor talablarga mos ravishda ishlab chiqariladi.",
+    "infoBoxes": [
+      {
+        "title": "Tejamkorlik",
+        "desc": "Sifatli un va yorma xarid qilib, mahsulotlaringiz qiymatini oshiring."
+      },
+      {
+        "title": "5 Yulduzli Xizmat",
+        "desc": "Biz mijozlarimizga yuksak eʼtibor qaratamiz va ular bilan mustahkam hamkorlikni yo‘lga qo‘yamiz."
+      }
+    ],
+    "buttonRequest": "Tijorat Taklifini So‘rash"
+  },
+  "workingSteps": [
+    {
+      "subtitle": "Qanday Ishlaymiz? 1-qadam",
+      "title": "Murojaat yoki Buyurtma",
+      "desc": "Biz bilan bog‘laning, sizga mos yechimni topamiz. Bizning mutaxassislar sizning talablaringizni tahlil qiladi"
+    },
+    {
+      "subtitle": "Qanday Ishlaymiz? 2-qadam",
+      "title": "Shartnoma tuzish",
+      "desc": "Yetkazib berishdan tortib to jihozlarni ishga tushirishgacha bo‘lgan barcha bosqichlarni to‘liq nazorat qilamiz. Shunda sizning don mahsulotlari qayta ishlash tizimingiz ishlab chiqarish ehtiyojlaringizga mos bo‘ladi."
+    },
+    {
+      "subtitle": "Qanday Ishlaymiz? 3-qadam",
+      "title": "Barqaror Ishlab Chiqarish",
+      "desc": "Zavodimiz doimiy sifat nazorati ostida faoliyat yuritadi. Mijozlarimizga muddatida yetkazib berish va doimiy qo‘llab-quvvatlashni kafolatlaymiz."
+    }
+  ],
+  "recentArticles": {
+    "subtitle": "Oxirgi yangiliklar va e'lonlar",
+    "title": "Oxirgi maqolalar",
+    "posts": [
+      {
+        "id": 1,
+        "date": "Yanvar 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Sifatli va xavfsiz oziq-ovqat tanlash bo‘yicha foydali maslahatlar",
+        "desc": "Bizning blog orqali bug'doy mahsulotlari, oziq-ovqat xavfsizligi, sog‘lom turmush tarzi va oziqlanish haqida dolzarb va foydali ma'lumotlar oling!",
+        "link": "blog-single-post.html"
+      },
+      {
+        "id": 1,
+        "date": "Yanvar 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Sifatli va xavfsiz oziq-ovqat tanlash bo‘yicha foydali maslahatlar",
+        "desc": "Bizning blog orqali bug'doy mahsulotlari, oziq-ovqat xavfsizligi, sog‘lom turmush tarzi va oziqlanish haqida dolzarb va foydali ma'lumotlar oling!",
+        "link": "blog-single-post.html"
+      },
+      {
+        "id": 1,
+        "date": "Yanvar 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Sifatli va xavfsiz oziq-ovqat tanlash bo‘yicha foydali maslahatlar",
+        "desc": "Bizning blog orqali bug'doy mahsulotlari, oziq-ovqat xavfsizligi, sog‘lom turmush tarzi va oziqlanish haqida dolzarb va foydali ma'lumotlar oling!",
+        "link": "blog-single-post.html"
+      },
+      {
+        "id": 1,
+        "date": "Yanvar 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Sifatli va xavfsiz oziq-ovqat tanlash bo‘yicha foydali maslahatlar",
+        "desc": "Bizning blog orqali bug'doy mahsulotlari, oziq-ovqat xavfsizligi, sog‘lom turmush tarzi va oziqlanish haqida dolzarb va foydali ma'lumotlar oling!",
+        "link": "blog-single-post.html"
+      },
+      {
+        "id": 1,
+        "date": "Yanvar 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Sifatli va xavfsiz oziq-ovqat tanlash bo‘yicha foydali maslahatlar",
+        "desc": "Bizning blog orqali bug'doy mahsulotlari, oziq-ovqat xavfsizligi, sog‘lom turmush tarzi va oziqlanish haqida dolzarb va foydali ma'lumotlar oling!",
+        "link": "blog-single-post.html"
+      },
+      {
+        "id": 1,
+        "date": "Yanvar 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Sifatli va xavfsiz oziq-ovqat tanlash bo‘yicha foydali maslahatlar",
+        "desc": "Bizning blog orqali bug'doy mahsulotlari, oziq-ovqat xavfsizligi, sog‘lom turmush tarzi va oziqlanish haqida dolzarb va foydali ma'lumotlar oling!",
+        "link": "blog-single-post.html"
+      },
+      {
+        "id": 1,
+        "date": "Yanvar 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Sifatli va xavfsiz oziq-ovqat tanlash bo‘yicha foydali maslahatlar",
+        "desc": "Bizning blog orqali bug'doy mahsulotlari, oziq-ovqat xavfsizligi, sog‘lom turmush tarzi va oziqlanish haqida dolzarb va foydali ma'lumotlar oling!",
+        "link": "blog-single-post.html"
+      }
+    ]
+  }
+}

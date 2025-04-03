@@ -1,0 +1,283 @@
+{
+  "category": {
+    "welcome": "Welcome"
+  },
+  "recents-post": "Recent posts",
+  "more": "More",
+  "readMore": "Read more",
+  "share-others": "Share with others",
+  "home": "Home",
+  "society": "Society",
+  "about_society": "About the society",
+  "work_schedule": "Work schedule",
+  "certificates": "Certificates and attestations",
+  "bank_details": "Bank details",
+  "company_goal": "Purpose and objectives of 'ZARBDOR ELEVATOR' JSC",
+  "structure": "Organizational structure",
+  "supervisory_board": "Supervisory board",
+  "management": "Management",
+  "audit_commission": "Audit commission",
+  "subsidiary_companies": "Subsidiary and affiliated companies",
+  "investors": "For shareholders and investors",
+  "guvohnoma": "Certificate",
+  "corporate_docs": "Corporate documents",
+  "capital_structure": "Capital structure",
+  "affiliated_persons": "Affiliated persons",
+  "shareholders_meeting": "Results of the general meeting of shareholders",
+  "strategy": "Development strategy",
+  "business_plans": "Business plans",
+  "key_facts": "Key facts",
+  "reports": "Reports",
+  "main_indicators": "Main indicators",
+  "audit_conclusions": "Audit conclusions",
+  "dividends": "Dividends",
+  "media_center": "Press center",
+  "site_map": "Site map",
+  "mail": "Mail",
+  "vacancies": "Vacancies",
+  "not_found": {
+    "message": "Page not found. Maybe the address is incorrect?",
+    "back_home": "Return to home"
+  },
+  "news": {
+    "heading": "News",
+    "breadcrumbs": {
+      "home": "Home",
+      "press": "Press center",
+      "current": "News"
+    }
+  },
+  "contact": {
+    "location": "Our address",
+    "quick_contact": "Quick contact",
+    "email": "Email",
+    "support": "Support",
+    "hours": "Working hours",
+    "days": "Monday to Friday",
+    "time": "From 08:00 to 19:00",
+    "request_quote": "Request a quote",
+    "get_in_touch": "Get in touch",
+    "description": "By maintaining full control over our products, we provide our clients with the best quality prices and services.",
+    "name": "Your name",
+    "phone": "Phone",
+    "select_service": "Select a service",
+    "service1": "Service 1",
+    "service2": "Service 2",
+    "details": "Additional details!",
+    "submit": "Submit request"
+  },
+  "footer": {
+    "quick_contact": "Quick Contact",
+    "contact_text": "If you have any questions or need help, feel free to contact our team.",
+    "address": "2307 Beverley Rd, Brooklyn, New York 11226, USA.",
+    "get_directions": "Get Directions",
+    "society": "Society",
+    "about": "About the Society",
+    "work_schedule": "Work Schedule",
+    "certificates": "Certificates and Attestations",
+    "bank_details": "Bank Details",
+    "company_goal": "\"ZARBDOR ELEVATOR\" JSC Purpose and Objectives",
+    "structure": "Organizational Structure",
+    "supervisory_board": "Supervisory Board",
+    "management": "Management",
+    "audit_commission": "Audit Commission",
+    "subsidiaries": "Subsidiary and Affiliated Companies",
+    "investors": "For Investors",
+    "certificate": "Certificate",
+    "corporate_docs": "Corporate Documents",
+    "capital_structure": "Capital Structure",
+    "affiliated_persons": "Affiliated Persons",
+    "reports": "Reports",
+    "follow_us": "Follow Us",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "sitemap": "Sitemap",
+    "copyright": "© 2025 Zarbdor Elevator. All Rights Reserved."
+  },
+  "fancyboxLayout1": {
+    "ctaBanner": {
+      "title": "Experience",
+      "desc": "Thanks to 20 years of experience and a scientific-technical approach, we ensure stable growth and high-quality products in the grain market."
+    },
+    "fancyBoxItems": [
+      {
+        "title": "Strong Strategy:",
+        "desc": "Our factories meet high safety and quality standards and have international certifications."
+      },
+      {
+        "title": "Award-Winning Experience:",
+        "desc": "We have experience in overcoming unexpected risks and challenges in global supply chains."
+      },
+      {
+        "title": "Accurate Inspection:",
+        "desc": "We ensure testing and quality through the latest technologies, backed by decades of experience."
+      }
+    ]
+  },
+  "bannerLayout5": {
+    "heading": "We Are Ready – To Meet the Demand for Grain Products",
+    "contentText": "The global need for food security and high-quality products is increasing. We have all the resources to meet these demands by offering eco-friendly and sustainable solutions. Efficient grain processing is a foundation for development!",
+    "note": "Watch Our Introduction",
+    "videoBlock": {
+      "videoTitle": "Watch the Video",
+      "bannerImage": "assets/images/banners/13.png"
+    }
+  },
+  "featuresLayout5": {
+    "headingSubtitle": "What We Offer",
+    "headingTitle": "Grain Product Supply for Manufacturers and Entrepreneurs!",
+    "headingDesc": "Our factory operates with the latest technologies, ensuring efficient and sustainable production. We also have a strong logistics system for global delivery.",
+    "buttonMore": "Learn More",
+    "featureItems": [
+      {
+        "title": "Grain Cleaning Service",
+        "desc": "Modern technologies are used in our factory for cleaning, sorting, and preparing grain. Product quality is our top priority.",
+        "more": "Learn More"
+      },
+      {
+        "title": "Milling Service",
+        "desc": "We produce high-quality flour and groats using innovative equipment. Our goal is consistent quality and customer-oriented products.",
+        "more": "Learn More"
+      },
+      {
+        "title": "Packaging and Storage",
+        "desc": "We have hygienic and safe warehouses for storing quality products. High standards are maintained during the packaging process.",
+        "more": "Learn More"
+      },
+      {
+        "title": "Logistics and Delivery",
+        "desc": "We provide fast and reliable global delivery services, fully supporting shipping, customs clearance, and related processes.",
+        "more": "Learn More"
+      }
+    ]
+  },
+  "bannerLayout4": {
+    "headingTitle": "New Energy: Sustainable and Reliable Food Systems",
+    "headingDesc": "In recent years, the demand for grain products has rapidly increased. We have sufficient financial and technical capacity to expand and collaborate with new markets. Our products are manufactured to meet both local and international market requirements.",
+    "infoBoxes": [
+      {
+        "title": "Cost Efficiency",
+        "desc": "Enhance the value of your products by purchasing high-quality flour and groats."
+      },
+      {
+        "title": "5-Star Service",
+        "desc": "We provide great attention to our clients and build strong partnerships with them."
+      }
+    ],
+    "buttonRequest": "Request a Commercial Offer"
+  },
+  "workingSteps": [
+    {
+      "subtitle": "How We Work? Step 1",
+      "title": "Inquiry or Order",
+      "desc": "Contact us and we’ll find the best solution for you. Our specialists will analyze your requirements."
+    },
+    {
+      "subtitle": "How We Work? Step 2",
+      "title": "Signing the Agreement",
+      "desc": "We fully control every stage from delivery to equipment installation. This ensures your grain processing system meets production needs."
+    },
+    {
+      "subtitle": "How We Work? Step 3",
+      "title": "Sustainable Production",
+      "desc": "Our factory operates under continuous quality control. We guarantee timely delivery and ongoing support for our clients."
+    }
+  ],
+  "recentArticles": {
+    "subtitle": "Latest News and Announcements",
+    "title": "Latest Articles",
+    "posts": [
+      {
+        "id": 1,
+        "date": "January 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Useful Tips for Choosing Safe and Quality Food",
+        "desc": "Get up-to-date and helpful information about wheat products, food safety, healthy lifestyle, and nutrition through our blog!",
+        "link": "blog-single-post.html"
+      },
+      {
+        "id": 1,
+        "date": "January 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Useful Tips for Choosing Safe and Quality Food",
+        "desc": "Get up-to-date and helpful information about wheat products, food safety, healthy lifestyle, and nutrition through our blog!",
+        "link": "blog-single-post.html"
+      },
+      {
+        "id": 1,
+        "date": "January 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Useful Tips for Choosing Safe and Quality Food",
+        "desc": "Get up-to-date and helpful information about wheat products, food safety, healthy lifestyle, and nutrition through our blog!",
+        "link": "blog-single-post.html"
+      },
+      {
+        "id": 1,
+        "date": "January 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Useful Tips for Choosing Safe and Quality Food",
+        "desc": "Get up-to-date and helpful information about wheat products, food safety, healthy lifestyle, and nutrition through our blog!",
+        "link": "blog-single-post.html"
+      },
+      {
+        "id": 1,
+        "date": "January 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Useful Tips for Choosing Safe and Quality Food",
+        "desc": "Get up-to-date and helpful information about wheat products, food safety, healthy lifestyle, and nutrition through our blog!",
+        "link": "blog-single-post.html"
+      },
+      {
+        "id": 1,
+        "date": "January 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Useful Tips for Choosing Safe and Quality Food",
+        "desc": "Get up-to-date and helpful information about wheat products, food safety, healthy lifestyle, and nutrition through our blog!",
+        "link": "blog-single-post.html"
+      },
+      {
+        "id": 1,
+        "date": "January 14, 2025",
+        "img": "/assets/images/portfolio/grid/13.png",
+        "categories": [
+          "Oil & Gas",
+          "Insights"
+        ],
+        "author": "Otajon Makxmasoliyev",
+        "title": "Useful Tips for Choosing Safe and Quality Food",
+        "desc": "Get up-to-date and helpful information about wheat products, food safety, healthy lifestyle, and nutrition through our blog!",
+        "link": "blog-single-post.html"
+      }
+    ]
+  }
+}

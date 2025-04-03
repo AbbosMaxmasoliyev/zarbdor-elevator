@@ -5,16 +5,16 @@ import "slick-carousel/slick/slick-theme.css";
 
 const FeatureCarousel = () => {
   const settings = {
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 2,
+    slidesToScroll: 2,
     arrows: false,
     dots: false,
     responsive: [
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
       {
@@ -31,7 +31,7 @@ const FeatureCarousel = () => {
     <div className="slick-carousel">
       <Slider {...settings}>
         <div className="p-3">
-          <div className="feature-item p-3 ">
+          <div className="feature-item p-3 min-h-[280px] grid grid-row-4" >
             <div className="feature__icon">
               <i className="icon-hydro-power3"></i>
             </div>
@@ -48,7 +48,7 @@ const FeatureCarousel = () => {
         </div>
 
         <div className="p-3">
-          <div className="feature-item p-3 ">
+          <div className="feature-item p-3 min-h-[280px] grid grid-row-4" >
             <div className="feature__icon">
               <i className="icon-eco-house"></i>
             </div>
@@ -63,7 +63,7 @@ const FeatureCarousel = () => {
           </div>
         </div>
         <div className="p-3">
-          <div className="feature-item p-3 ">
+          <div className="feature-item p-3 min-h-[280px] grid grid-row-4" >
             <div className="feature__icon">
               <i className="icon-energy2"></i>
             </div>
@@ -80,7 +80,7 @@ const FeatureCarousel = () => {
         </div>
 
         <div className="p-3">
-          <div className="feature-item p-3 ">
+          <div className="feature-item p-3 min-h-[280px] grid grid-row-4" >
             <div className="feature__icon">
               <i className="icon-electric-car"></i>
             </div>
