@@ -1,9 +1,9 @@
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import RecentsPosts from "../components/RecentsPosts";
-import usePages from "../services/pages";
-import React from "react";
 import { useParams } from "react-router-dom";
+import RecentsPosts from "../components/RecentsPosts";
 import NotFound from "../components/NotFound";
+import usePages from "../services/pages";
 
 const Pages = () => {
   const { page } = useParams();
@@ -11,19 +11,31 @@ const Pages = () => {
     i18n: { language },
   } = useTranslation();
 
-  const { pages, error, loading } = usePages(`/pages/page/${page}`);
+  const {
+    pages: { data },
+    error,
+    loading,
+  } = usePages(`/pages/page/${page}`);
+  const [pageContent, setPageContent] = useState(null);
 
-  function decodeHtmlEntities(encodedStr) {
+  useEffect(() => {
+    const content = data?.contents?.[language]?.content || "";
+    console.log(content);
+    setHasContent(content ? true : false);
+    setPageContent(content);
+  }, [data, language]);
+
+  const [hasContent, setHasContent] = useState(true);
+
+  const decodeHtmlEntities = (encodedStr) => {
     const textarea = document.createElement("textarea");
     textarea.innerHTML = encodedStr;
     return textarea.value;
-  }
-
-  const pageContent = pages?.contents?.[language]?.content;
-  const hasContent = !error && pageContent;
+  };
 
   return (
     <div>
+      {/* Header Section */}
       <section
         className="page-title page-title-layout2 bg-overlay bg-overlay-2 pb-5 z-0"
         style={{
@@ -34,30 +46,33 @@ const Pages = () => {
       >
         <div className="container z-10 relative">
           <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-6 ">
+            <div className="col-sm-12 col-md-12 col-lg-6">
               <h1 className="pagetitle__heading mb-0 !text-white">
-                {hasContent ? pages?.contents?.[language]?.title : ""}
+                {hasContent ? data?.contents?.[language]?.title : ""}
               </h1>
               <p className="pagetitle__desc !text-white">
-                {pages?.contents?.uz?.description}
+                {data?.contents?.uz?.description}
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="text-content-section pb-90 mt-4 ">
+      {/* Content Section */}
+      <section className="text-content-section pb-90 mt-4">
         <div className="container">
           <div className="flex xl:flex-row flex-col-reverse gap-4">
+            {/* Recent Posts Sidebar */}
             <div className="col-sm-12 col-md-12 col-lg-4">
               <RecentsPosts />
             </div>
 
+            {/* Page Content */}
             <div className="col-sm-12 col-md-12 col-lg-8">
               {hasContent ? (
                 <div
                   dangerouslySetInnerHTML={{
-                    __html: decodeHtmlEntities(pageContent),
+                    __html: decodeHtmlEntities(pageContent || ""),
                   }}
                 />
               ) : (

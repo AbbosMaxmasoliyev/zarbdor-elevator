@@ -1,5 +1,5 @@
 import useNews from "../services/news";
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
@@ -9,7 +9,9 @@ const RecentsPosts = () => {
     i18n: { language },
   } = useTranslation();
   const { news, loading } = useNews("news");
-  console.log(news);
+  useEffect(() => {
+    console.log("ishalayapti");
+  }, []);
   if (loading) {
     return <h1>Loading....</h1>;
   }
