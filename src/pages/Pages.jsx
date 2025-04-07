@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import RecentsPosts from "../components/RecentsPosts";
 import NotFound from "../components/NotFound";
 import usePages from "../services/pages";
+import FileList from "../components/FileList";
 
 const Pages = () => {
   const { page } = useParams();
@@ -17,22 +18,27 @@ const Pages = () => {
     loading,
   } = usePages(`/pages/page/${page}`);
   const [pageContent, setPageContent] = useState(null);
-
+  const [documents, setDocuments] = useState(null);
+  const [hasContent, setHasContent] = useState(true);
+  const [hasDocument, setHasDocument] = useState(true);
+  const [type, setType] = useState("content");
   useEffect(() => {
+    console.log(data);
+    setType(data?.type);
     const content = data?.contents?.[language]?.content || "";
-    console.log(content);
+    const documents = data?.documents || "";
+    setHasDocument(documents ? true : false);
+    setDocuments(documents);
     setHasContent(content ? true : false);
     setPageContent(content);
   }, [data, language]);
-
-  const [hasContent, setHasContent] = useState(true);
 
   const decodeHtmlEntities = (encodedStr) => {
     const textarea = document.createElement("textarea");
     textarea.innerHTML = encodedStr;
     return textarea.value;
   };
-
+  console.log(type);
   return (
     <div>
       {/* Header Section */}
@@ -58,27 +64,36 @@ const Pages = () => {
         </div>
       </section>
 
-      {/* Content Section */}
-      <section className="text-content-section pb-90 mt-4">
+      <section className="text-content-section pb-90 mt-4 ">
         <div className="container">
           <div className="flex xl:flex-row flex-col-reverse gap-4">
-            {/* Recent Posts Sidebar */}
             <div className="col-sm-12 col-md-12 col-lg-4">
               <RecentsPosts />
             </div>
-
-            {/* Page Content */}
-            <div className="col-sm-12 col-md-12 col-lg-8">
-              {hasContent ? (
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: decodeHtmlEntities(pageContent || ""),
-                  }}
-                />
-              ) : (
-                <NotFound />
-              )}
-            </div>
+            {error ? (
+              <NotFound />
+            ) : (
+              <div className=" w-full">
+                {type === "content" ? (
+                  hasContent ? (
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: decodeHtmlEntities(pageContent || ""),
+                      }}
+                    />
+                  ) : (
+                    <NotFound />
+                  )
+                ) : null}
+                {type === "documents" ? (
+                  hasDocument ? (
+                    documents.map((doc) => <FileList doc={doc} />)
+                  ) : (
+                    <NotFound />
+                  )
+                ) : null}
+              </div>
+            )}
           </div>
         </div>
       </section>
