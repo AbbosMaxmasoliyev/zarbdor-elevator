@@ -14,7 +14,7 @@ const FileList = ({ doc }) => {
       <ul className="grid grid-cols-1  justify-between  w-full gap-5">
         {doc?.documentIds.map((file, index) => (
           <li key={index} className="file-item">
-            <FileCard title={file.title} type={file.type} />
+            <FileCard title={file.title} type={file.type} link={file.document} />
           </li>
         ))}
       </ul>
