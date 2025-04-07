@@ -7,17 +7,17 @@ const languages = [
   {
     id: "uz",
     name: "O‘zbekcha",
-    icon: "https://flagcdn.com/24x18/uz.png",
+    icon: "/assets/uz.png",
   },
   {
     id: "en",
     name: "English",
-    icon: "https://flagcdn.com/24x18/gb.png",
+    icon: "/assets/gb.png",
   },
   {
     id: "ru",
     name: "Русский",
-    icon: "https://flagcdn.com/24x18/ru.png",
+    icon: "/assets/ru.png",
   },
 ];
 
