@@ -21,7 +21,7 @@ const RecentsPosts = () => {
         <h5 className="widget__title">{t("recents-post")}</h5>
         <div className="widget-content">
           <ul className="list-unstyled">
-            {news.data.length &&
+            {news?.data?.length &&
               news?.data?.map((newsItem) =>
                 newsItem?.contents[language] ? (
                   <li>
