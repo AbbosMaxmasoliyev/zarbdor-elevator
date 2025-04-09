@@ -57,7 +57,7 @@ const Pages = () => {
                 {hasContent ? data?.contents?.[language]?.title : ""}
               </h1>
               <p className="pagetitle__desc !text-white">
-                {data?.contents?.uz?.description}
+                {data?.contents?.[language]?.description}
               </p>
             </div>
           </div>
